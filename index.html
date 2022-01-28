@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My resume</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    
+
+    <!-- main container -->
+    <div class="main_container_section">
+        <!-- main content section -->
+        <div class="main_content_section">
+        <!-- about me -->
+        <div class="about_me_section">
+        
+        <h2 class="about-me_profession">  Junior Front-End developer</h2>
+        <h1 class="about_me_name">Bartashevich Dmitriy</h1>
+            <p class="about_me_description ">
+                About myself:<br>
+                Young, confident and ambitious looking for those who will take an aspiring IT guy. My main trump card is like in the
+                movie "The Pursuit of Happyness with Will Smith: "I'm the kind of person that if you ask me a question that I don't know
+                the answer to, I'll say I don't know. But believe me, I know how to find it, that answer, and I will find it."
+            </p>
+        </div>
+        
+                            <!-- my projects-->
+            <div class="my_projects_section">
+                <h3 class="main_content_title">My Projects</h3>
+            
+                <ol class="my_projects_list">
+            
+                    <li class="my_projects_item">
+                        My Resume
+                        <span class="my_projects_text">
+                            <a href="https://shelestdm.github.io/site/" class="my_projects_link">https://shelestdm.github.io/resume/</a>
+                            ...................................
+                            <span class="paren_section">[</span> HTML5, CSS3, JS) <span class="paren_section">]</span> </span>
+                    </li>
+                    <li class="my_projects_item">
+                        Battleships:
+                        <span class="my_projects_text">
+                            <a href=https://shelestdm.github.io/battleships/
+                                class="my_projects_link">https://shelestdm.github.io/battleships/</a>
+                                ...........................
+                            <span class="paren_section">[</span> HTML5, CSS3, JS) <span class="paren_section">]</span> </span>
+                    </li>
+                    
+                    </ol>
+                </ol>
+            </div>
+            
+
+                <!-- my work experience-->
+                <div class="my_work_experience_section">  
+                <div >
+                    
+                                    <h3 class="main_content_title">Опыт работы</h3>
+                                    
+                                    <!-- company1-->
+                                    <div class="my_work_exp_comp1">
+                                        <h4 class="my_education">No experience, but you hang in there...</h4>
+                                        <p class="my_work_exp_duty">That's how sad it is, no experience. Well, actually there is, but you are not interested in my work experience not in
+                                        the IT-sphere? I'm ready to enthusiastically take on your test task
+                                        </p>
+                                        <p class="my_work_exp_time">September 2019 - November 2021 <span class="my_work_exp_time_line">|</span> </p>
+                                    
+                                        </ul>
+                                    </div>
+                            
+
+                                <h3 class="main_content_title">Non-IT work experience</h3>
+                                
+                                  
+                                        <div class="my_exp_noIT overflow_hidden visible">
+                                                    <!-- company1-->
+                                                    <div class="my_work_exp_comp1">
+                                                        <h4 class="my_education">Ajax</h4>
+                                                        <p class="my_work_exp_duty">
+                                                            QC Quality inspector
+                                                        </p>
+                                                        <p class="my_work_exp_time">November 2019 - March 2020 <span class="my_work_exp_time_line">|</span> </p>
+
+                                                        </ul>
+                                                    </div>
+                                                    <!-- company2-->
+                                                    <div class="my_work_exp_comp2">
+                                                        <h4 class="my_education">Paton Turbine Technologies</h4>
+                                                        <p class="my_work_exp_duty">
+                                                            Metrology Technician
+                                                        </p>
+                                                        <p class="my_work_exp_time">March 2020 - January 2021 <span class="my_work_exp_time_line">|</span> </p>
+
+                                                        </ul>
+                                                    </div>
+                                                    <!-- company3-->
+                                                    <div class="my_work_exp_comp3">
+                                                        <h4 class="my_education">LIKS-SERVICE</h4>
+                                                        <p class="my_work_exp_duty">
+                                                            Metrology Engineer
+                                                        </p>
+                                                        <p class="my_work_exp_time">May 2021 - November 2021 <span class="my_work_exp_time_line">|</span> </p>
+
+                                                        </ul>
+                                                 </div>
+                                        </div>
+
+                                                </div>
+                                                    <div id="open_closeOne">
+                                                        <button id='openOne'>Open</button>
+                                                        <script>
+                                                            let my_exp_noIT = document.querySelector('.my_exp_noIT')
+                                                            let openOne = document.getElementById('openOne');
+                                                            openOne.addEventListener('click', function () {
+                                                                my_exp_noIT.classList.toggle('overflow_hidden');
+                                                                my_exp_noIT.classList.toggle('box1');
+                                                                my_exp_noIT.classList.toggle('visible');
+                                                                if (openOne.innerHTML == 'Close') { openOne.innerHTML = 'Open' }
+                                                                else { openOne.innerHTML = 'Close' }
+                                                            })
+                                                        </script>
+                                                    </div>
+
+                    <!-- education-->
+
+                    <div class="my_education_section">
+                        <h4 class="main_content_title">Education</h4>
+                        <p class="my_education">National Aviation University</p>
+                        <p class="my_work_exp_duty">
+                            Higher education: Master's degree in Metrology and Information and Measuring Technology
+
+                        </p>
+                        <p class="my_education_time">September 2012 - June 2018 <span class="my_work_exp_time_line">|</span> </p>
+
+                    </div>
+
+                        <!--it education-->
+                        
+                        <div class="my_education_section_1 overflow_hidden">
+                            <h4 class="main_content_title ">The path to IT</h4>
+                            <p class="my_work_exp_duty_path" id='visible'> 
+                                <br>Surely you have a question: why IT and not marketing or finance?
+                                <br>
+                                The answer is simple: I'm an introvert who likes to spend a long time in the computer monitor, what is there to think
+                                about?
+                            </p>
+                              
+                            <p class="my_work_exp_duty_path">
+                                    It all started with a free marathon of an IT company, which in the days of unemployment I stumbled upon on
+                                    Instagram. It said. try it! And then I thought: why not? With that thought in mind, I signed up for a free course. It
+                                    looks like an advertisement, doesn't it? </p>
+                            <p class="my_work_exp_duty_path">
+                                After that, everything changed to "before" and "after". Trying to create something with html and css properties, there
+                                was no stopping me. I enjoyed it so much that I felt a long-forgotten feeling: When you get high from what you're doing.
+                                </p>
+                                <p class="my_work_exp_duty_path">
+                                Then I decided to plunge into the world of IT: I began to study on my own html tags and css commands, then came
+                                JavaScript, and after that I got to React.
+                                </p>
+                            <p class="my_education_time">March 2020 - until now <span class="my_work_exp_time_line">|</span> </p>
+                        </div>  
+                       
+                            <div id="open_close">
+                                <button id='open'>Open</button>
+                                <script>
+                                    let myEducationSection = document.querySelector('.my_education_section_1')
+                                    let open = document.getElementById('open');
+                                    open.addEventListener('click', function () {
+                                        myEducationSection.classList.toggle('overflow_hidden');
+                                        myEducationSection.classList.toggle('box');
+                                        if(open.innerHTML == 'Close')
+                                        {open.innerHTML = 'Open'}
+                                        else{open.innerHTML = 'Close'}
+                                    })
+                                </script>
+                            </div>
+
+                    </div>
+
+                    <div>
+                        <h4 class="main_content_title">Courses I took</h4>
+                        <ul class="my_work_exp_duty_list">
+                            <li class="my_work_exp_duty"><a href="http://code.mu/ru/markup/book/prime/">Трепачёв Дмитрий: Основной учебник
+                                    по по HTML & CSS</a> </li>
+                            <li class="my_work_exp_duty"><a href="http://code.mu/ru/javascript/book/prime/">Трепачёв Дмитрий: Основной
+                                    учебник по JavaScript</a></li>
+                            <li class="my_work_exp_duty"><a href="http://code.mu/ru/javascript/book/supreme/">Трепачёв Дмитрий: Высший
+                                    учебник по JavaScript</a> </li>
+                            <li class="my_work_exp_duty"><a href="https://www.youtube.com/watch?v=GNrdg3PzpJQ">Ульби Тимур:
+                                    видеоурок-альманах "React.JS : от А до Я"</a></li>
+                    </div>
+         </div>
+    
+
+
+
+<!-- sidebar section-->
+<aside class="sidebar_section">
+<img src="img/photo_2020-09-19_20-46-50.jpg" width=370px height=354px alt="my photo">
+
+<!-- contacts section-->
+<div class="contacts_section">
+      <h3 class="sidebar_title">Contacts</h3>
+      <div> 
+          <span class="contacts_section_title"> C:  </span>
+           <a  class="contacts_section_link" href="tel:0986495663">+380986495663</a>  
+      </div>
+
+      <div> 
+          <span class="contacts_section_title"> E: </span> 
+          <a class="contacts_section_link" href="mailto:shelest.dm@icloud.com ">shelest.dm@icloud.com</a> 
+      </div>
+
+</div>
+
+<!-- tech skills section -->
+
+    <div class="tech_skills_section">
+        <h3 class="sidebar_title">Tech Skills </h3>
+        <ul class="ul_section">            
+        <li class="li_item"> <span class="li_item_text_tech"> HTML5</span> </li>
+        <li class="li_item"> <span class="li_item_text_tech"> CSS3 </span></li>
+        <li class="li_item"> <span class="li_item_text_tech"> JavaScript </span></li>
+        <li class="li_item"> <span class="li_item_text_tech"> React.js </span></li>
+        </ul>
+    </div>
+
+        <!-- soft skills -->
+        <div class="soft_skills_section">
+            <h3 class="sidebar_title">Soft Skills </h3>
+            <ul class="ul_section">
+                <li class="li_item_soft"> <span class="li_item_text_soft">Effective work organization</span></li>
+                <li class="li_item_soft"> <span class="li_item_text_soft">Ability to work with information</span></li>
+                <li class="li_item_soft"> <span class="li_item_text_soft">Teamwork skills</span></li>
+                <li class="li_item_soft"> <span class="li_item_text_soft">Quick learning curve</span></li>
+            </ul>
+        </div>
+
+        <div class='time_div'>
+            <p id="time_p"></p>
+        </div>
+</aside>
+
+</div>
+</body>
+</html>
